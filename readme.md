@@ -98,6 +98,7 @@
 - [NodeOS](http://node-os.com) - The first operating system powered by npm.
 - [limdu](https://github.com/erelsgl/limdu) - Machine-learning framework.
 - [Cytoscape.js](http://js.cytoscape.org) - Graph theory (a.k.a. network) modeling and analysis.
+- [kad](https://github.com/kadtools/kad) - Kademlia distributed hash table.
 
 
 ### Command-line apps
@@ -111,7 +112,6 @@
 - [yo](https://github.com/yeoman/yo) - Run Yeoman generators.
 - [Babel](https://babeljs.io/docs/usage/cli/) - Use next generation JavaScript, today.
 - [ESLint](http://eslint.org) - The pluggable linting utility for JavaScript.
-- [JSCS](https://github.com/jscs-dev/node-jscs) - JavaScript Code Style checker.
 - [Standard](https://github.com/feross/standard) - JavaScript Standard Style — One style to rule them all.
 - [cpy](https://github.com/sindresorhus/cpy) - Copy files.
 - [fkill](https://github.com/sindresorhus/fkill-cli) - Fabulously kill processes. Cross-platform.
@@ -122,7 +122,7 @@
 - [is-up](https://github.com/sindresorhus/is-up) - Check whether a website is up or down.
 - [is-online](https://github.com/sindresorhus/is-online) - Check if the internet connection is up.
 - [public-ip](https://github.com/sindresorhus/public-ip) - Get your public IP address.
-- [dark-mode](https://github.com/sindresorhus/dark-mode) - Toggle the OS X Dark Mode.
+- [dark-mode](https://github.com/sindresorhus/dark-mode) - Toggle the macOS Dark Mode.
 - [ttystudio](https://github.com/chjj/ttystudio) - Record your terminal and compile it to a GIF or APNG without any external dependencies, bash scripts, gif concatenation, etc.
 - [David](https://github.com/alanshaw/david) - Tells you when your package npm dependencies are out of date.
 - [http-server](https://github.com/indexzero/http-server) - Simple, zero-config command-line HTTP server.
@@ -160,6 +160,7 @@
 - [npm-home](https://github.com/sindresorhus/npm-home) - Open the npm page of a package.
 - [trymodule](https://github.com/VictorBjelkholm/trymodule) - Try out npm packages in the terminal.
 - [terminal-recorder](https://github.com/cortezcristian/terminal-recorder) - Record your terminal usage and export it to interactive HTML.
+- [jscpd](https://github.com/kucherenko/jscpd) - Copy/paste detector for source code.
 
 
 ### Functional programming
@@ -174,6 +175,7 @@
 - [Bacon.js](http://baconjs.github.io) - Functional reactive programming.
 - [RxJS](http://reactivex.io) - Functional reactive library for transforming, composing, and querying various kinds of data.
 - [Lazy.js](https://github.com/dtao/lazy.js) - Utility library similar to lodash/Underscore but with lazy evaluation, which can translate to superior performance in many cases.
+- [Kefir.js](https://github.com/rpominov/kefir) - Reactive library with focus on high performance and low memory usage.
 
 
 ### HTTP
@@ -209,6 +211,7 @@
 - [locus](https://github.com/alidavut/locus) - Starts a REPL at runtime that has access to all variables.
 - [bugger](https://github.com/buggerjs/bugger) - Provides Chrome Devtools bindings to debug programs in Chrome.
 - [0x](https://github.com/davidmarkclements/0x) - Flamegraph profiling.
+- [ctrace](https://github.com/automation-stack/ctrace) - Well-formatted and improved trace system calls and signals.
 
 
 ### Logging
@@ -261,6 +264,7 @@
 - [term-img](https://github.com/sindresorhus/term-img) - Display images in your terminal.
 - [yargs](https://github.com/yargs/yargs) - Command-line parser that automatically generates an elegant user-interface.
 - [liftoff](https://github.com/js-cli/js-liftoff) - Bootstrapping tool for building command-line app.
+- [listr](https://github.com/samverschueren/listr) - Terminal task list.
 
 
 ### Build tools
@@ -322,6 +326,7 @@
 - [apiDoc](https://github.com/apidoc/apidoc) - Inline documentation for RESTful web APIs.
 - [documentation.js](http://documentation.js.org) - API documentation generator with support for ES2015+ and flow annotation.
 - [YUIDoc](http://yui.github.com/yuidoc/) - Generates API documentation from comments in source.
+- [ESDoc](https://esdoc.org) - Documentation generator targeting ES2015, attaching test code and measuring documentation coverage.
 
 
 ### Filesystem
@@ -332,7 +337,7 @@
 - [rimraf](https://github.com/isaacs/rimraf) - Recursively delete files like `rm -rf`.
 - [mkdirp](https://github.com/substack/node-mkdirp) - Recursively create directories like `mkdir -p`.
 - [graceful-fs](https://github.com/isaacs/node-graceful-fs) - Drop-in replacement for the `fs` module with various improvements.
-- [chokidar](https://github.com/paulmillr/chokidar) - Filesystem watcher which stabilizes events from `fs.watch` and `fs.watchFile` as well as using native `fsevents` on OS X.
+- [chokidar](https://github.com/paulmillr/chokidar) - Filesystem watcher which stabilizes events from `fs.watch` and `fs.watchFile` as well as using native `fsevents` on macOS.
 - [find-up](https://github.com/sindresorhus/find-up) - Find a file by walking up parent directories.
 - [load-json-file](https://github.com/sindresorhus/load-json-file) - Read and parse a JSON file.
 - [write-json-file](https://github.com/sindresorhus/write-json-file) - Stringify and write JSON to a file atomically.
@@ -401,6 +406,7 @@
 - [Primus](https://github.com/primus/primus) - An abstraction layer for real-time frameworks to prevent module lock-in.
 - [Straw](https://github.com/simonswain/straw) - Real-time dataflow framework.
 - [deepstream.io](https://deepstream.io) - Scalable real-time microservice framework.
+- [Kalm](https://github.com/fed135/Kalm) - Modular socket wrapper and optimizer.
 
 
 ### Image
@@ -529,6 +535,7 @@
 - [get-port](https://github.com/sindresorhus/get-port) - Get an available port.
 - [ipify](https://github.com/sindresorhus/ipify) - Get your public IP address.
 - [getmac](https://github.com/bevry/getmac) - Get the computer MAC address.
+- [polo](https://github.com/mafintosh/polo) - Zero-config service discovery.
 
 
 ### Database
@@ -551,6 +558,7 @@
 	- [orm2](https://github.com/dresende/node-orm2) - ORM for PostgreSQL, MariaDB, MySQL, Amazon Redshift, SQLite, MongoDB.
 	- [firenze](https://github.com/fahad19/firenze) - Adapter-based ORM for MySQL, Memory, Redis, localStorage and more.
 	- [pg-promise](https://github.com/vitaly-t/pg-promise) - PostgreSQL framework for native SQL using promises.
+	- [Objection.js](https://github.com/Vincit/objection.js) - Lightweight ORM built on the SQL query builder Knex.
 - Query builder
 	- [Knex](http://knexjs.org) - A query builder for PostgreSQL, MySQL and SQLite3, designed to be flexible, portable, and fun to use.
 - Other
@@ -577,11 +585,14 @@
 - [hook-std](https://github.com/sindresorhus/hook-std) - Hook and modify stdout/stderr.
 - [testen](https://github.com/egoist/testen) - Run tests for multiple versions of Node.js locally with NVM.
 - [Nightwatch](https://github.com/nightwatchjs/nightwatch) - Automated UI testing framework based on Selenium WebDriver.
+- [WebdriverIO](http://webdriver.io) - Automated testing based on the WebDriver protocol.
 
 
 ### Security
 
 - [snyk](https://github.com/Snyk/snyk) - CLI and build-time tool to find & fix vulnerable npm dependencies.
+- [nsp](https://github.com/nodesecurity/nsp) - CLI tool to identify known vulnerabilities in your project.
+- [RegEx-DoS](https://github.com/jagracey/RegEx-DoS) - CLI tool to identify possible regex denial of service (ReDos) vulnerabilities in your project.
 
 
 ### Benchmarking
@@ -677,7 +688,7 @@
 
 ### Automation
 
-- [robotjs](https://github.com/octalmage/robotjs) -  Desktop Automation: control the mouse, keyboard and read the screen.
+- [robotjs](https://github.com/octalmage/robotjs) - Desktop Automation: control the mouse, keyboard and read the screen.
 
 
 ### AST
@@ -763,6 +774,7 @@
 - [resolve-from](https://github.com/sindresorhus/resolve-from) - Resolve the path of a module like `require.resolve()` but from a given path.
 - [simplecrawler](https://github.com/cgiffard/node-simplecrawler) - Event driven web crawler.
 - [jsdom](https://github.com/tmpvar/jsdom) - JavaScript implementation of HTML and the DOM.
+- [hypernova](https://github.com/airbnb/hypernova) - A service for server-side rendering your JavaScript views.
 
 
 ## Resources
@@ -775,9 +787,12 @@
 - [browserify-handbook](https://github.com/substack/browserify-handbook) - The definitive guide for browserify.
 - [module-best-practices](https://github.com/mattdesl/module-best-practices) - Some good practices when writing new npm modules.
 - [The Node Way](http://thenodeway.io) — An entire philosophy of Node.js best practices and guiding principles exists for writing maintainable modules, scalable applications, and code that is actually pleasant to read.
+- [You Don't Know Node.js](https://github.com/azat-co/you-dont-know-node) - Introduction to Node.js core features and asynchronous JavaScript.
+
 
 ### Discovery
 
+- [npms](https://npms.io) - Superb package search with deep analysis of package quality using a [myriad of metrics](https://npms.io/about).
 - [node-modules.com](http://node-modules.com) - An alternative npm search engine with a more intelligent and personal results ranking.
 - [npm addict](https://npmaddict.com) - Your daily injection of npm packages.
 - [npmcompare.com](https://npmcompare.com) - Compare and discover npm packages.
