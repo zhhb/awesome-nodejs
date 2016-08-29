@@ -1,17 +1,22 @@
 # Awesome Node.js [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-[<img src="https://cdn.rawgit.com/gilbarbara/logos/e7b1dc2666c3dabe6c1276abd0a767b6ebd6af43/logos/nodejs-icon.svg" align="right" width="140">](https://nodejs.org)
+[<img src="https://cdn.rawgit.com/gilbarbara/logos/e7b1dc2666c3dabe6c1276abd0a767b6ebd6af43/logos/nodejs-icon.svg" align="right" width="70">](https://nodejs.org)
 
 > A curated list of delightful Node.js [packages](#packages) and [resources](#resources).
 
-*Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing. You might also like [awesome-npm](https://github.com/sindresorhus/awesome-npm).*
-
+*You might also like [awesome-npm](https://github.com/sindresorhus/awesome-npm).*
 *Please read the [contribution guidelines](contributing.md) before contributing.*
+
+-
+
+<p align="center"><b>🔥 Want to strengthen your core JavaScript skills and master ES6?</b><br>I would personally recommend this awesome <a href="https://ES6.io/friend/AWESOME" title="Sponsored link, but excellent regardless">ES6 course</a> by Wes Bos.</p>
+
+-
 
 **Check out my [blog](https://blog.sindresorhus.com) 🦄 or say *hi* on [Twitter](https://twitter.com/sindresorhus).**
 
 
-## Table of Contents
+## Contents
 
 - [Packages](#packages)
 	- [Mad science](#mad-science)
@@ -161,6 +166,8 @@
 - [trymodule](https://github.com/VictorBjelkholm/trymodule) - Try out npm packages in the terminal.
 - [terminal-recorder](https://github.com/cortezcristian/terminal-recorder) - Record your terminal usage and export it to interactive HTML.
 - [jscpd](https://github.com/kucherenko/jscpd) - Copy/paste detector for source code.
+- [atmo](https://github.com/Raathigesh/Atmo) - Server-side API mocking.
+- [auto-install](https://github.com/siddharthkp/auto-install) - Auto installs dependencies as you code.
 
 
 ### Functional programming
@@ -193,12 +200,14 @@
 - [rocky](https://github.com/h2non/rocky) - Featured, middleware-oriented HTTP proxy with traffic replay and intercept.
 - [superagent](https://github.com/visionmedia/superagent) - A small progressive HTTP request library.
 - [node-fetch](https://github.com/bitinn/node-fetch) - `window.fetch` for Node.js.
+- [flashheart](https://github.com/bbc/flashheart) - A fully-featured REST client built for ease of use and resilience.
 
 
 ### Debugging / Profiling
 
 - [ironNode](https://github.com/s-a/iron-node) - Node.js debugger supporting ES2015 out of the box.
 - [node-inspector](https://github.com/node-inspector/node-inspector) - Debugger based on Blink Developer Tools.
+- [devtool](https://github.com/Jam3/devtool) - Run Node.js programs through Chrome Dev Tools.
 - [Theseus](https://github.com/adobe-research/theseus) - A new type of JavaScript debugger featuring real-time code coverage, retroactive inspection and asynchronous call tree.
 - [longjohn](https://github.com/mattinsler/longjohn) - Long stack traces with configurable call trace length.
 - [debug](https://github.com/visionmedia/debug) - Tiny debugging utility.
@@ -349,6 +358,7 @@
 - [fs-extra](https://github.com/jprichardson/node-fs-extra) - Extra methods for the `fs` module.
 - [pkg-dir](https://github.com/sindresorhus/pkg-dir) - Find the root directory of an npm package.
 - [sander](https://github.com/rich-harris/sander) - Promise-based replacement for the `fs` module.
+- [filehound](https://github.com/nspragg/filehound) - Flexible and fluent interface for searching the file system.
 
 
 ### Control flow
@@ -368,6 +378,7 @@
 	- [co](https://github.com/tj/co) - The ultimate generator based flow-control goodness.
 	- [suspend](https://github.com/jmar777/suspend) - Generator-based control flow that plays nice with callbacks, promises, and thunks.
 	- [bluebird-co](https://github.com/novacrazy/bluebird-co) - A set of high performance yield handlers for Bluebird coroutines.
+	- [iterum](https://github.com/xgbuils/iterum) - Build generator pipelines using Array-like methods.
 - Streams
 	- [Highland.js](http://highlandjs.org) - Manages synchronous and asynchronous code easily, using nothing more than standard JavaScript and Node-like Streams.
 - Channels
@@ -509,6 +520,7 @@
 - [excel-stream](https://github.com/dominictarr/excel-stream) - Streaming Excel spreadsheet to JSON parser.
 - [xml2js](https://github.com/Leonidas-from-XIV/node-xml2js) - XML to JavaScript object converter.
 - [Jison](http://zaach.github.io/jison/) - Friendly JavaScript parser generator. It shares genes with Bison, Yacc and family.
+- [google-libphonenumber](https://github.com/seegno/google-libphonenumber) - Parse, format, store and validate phone numbers.
 
 
 ### Humanize
@@ -547,6 +559,7 @@
 	- [MySQL](https://github.com/felixge/node-mysql) - MySQL client.
 	- [Redis](https://github.com/luin/ioredis) - Redis client.
 	- [nano](https://github.com/dscape/nano) - CouchDB client.
+	- [Aerospike](https://github.com/aerospike/aerospike-client-nodejs) - Aerospike client.
 - ODM / ORM
 	- [Bookshelf](http://bookshelfjs.org) - ORM for PostgreSQL, MySQL and SQLite3 in the style of Backbone.js.
 	- [Massive](https://github.com/robconery/massive-js) - PostgreSQL data access tool.
@@ -616,6 +629,7 @@
 - [passwordless](https://passwordless.net) - Token-based authentication middleware for Express allowing authentication without passwords.
 - [Lockit](https://github.com/zemirco/lockit) - Full featured authentication solution for Express. Supports a variety of databases, predefined routes, email and two-factor authentication.
 - [Grant](https://github.com/simov/grant) - OAuth middleware for Express, Koa, and Hapi.
+- [CloudRail](https://github.com/CloudRail/cloudrail-si-node-sdk) - Unified API for social authentication (Facebook, Twitter, Slack, Instagram, …).
 
 
 ### Email
@@ -628,6 +642,7 @@
 
 - [kue](https://github.com/Automattic/kue) - Priority job queue backed by Redis.
 - [bull](https://github.com/OptimalBits/bull) - Persistent job and message queue.
+- [agenda](https://github.com/rschmukler/agenda) - Lightweight job scheduling on MongoDB.
 
 
 ### Node.js management
@@ -644,15 +659,16 @@
 	- [set-immediate-shim](https://github.com/sindresorhus/set-immediate-shim) - Simple `setImmediate()` ponyfill.
 	- [path-is-absolute](https://github.com/sindresorhus/path-is-absolute) - Node.js 0.12 `path.isAbsolute()` ponyfill.
 	- [os-tmpdir](https://github.com/sindresorhus/os-tmpdir) - Node.js `os.tmpdir()` ponyfill.
-	- [os-homedir](https://github.com/sindresorhus/os-homedir) - Node.js 4.0 `os.homedir()` ponyfill.
+	- [os-homedir](https://github.com/sindresorhus/os-homedir) - Node.js 4 `os.homedir()` ponyfill.
+	- [user-info](https://github.com/sindresorhus/user-info) - Node.js 6 `os.userInfo()` ponyfill.
 	- [debug-log](https://github.com/sindresorhus/debug-log) - Node.js 0.12 `util.debuglog()` ponyfill.
 	- [buffer-equals](https://github.com/sindresorhus/buffer-equals) - Node.js 0.12 `buffer.equals()` ponyfill.
-	- [buffer-includes](https://github.com/sindresorhus/buffer-includes) - Node.js 5.3.0 `buffer.includes()` ponyfill.
-	- [buf-indexof](https://github.com/sindresorhus/buf-indexof) - Node.js 4.0 `buffer.indexOf()` ponyfill.
+	- [buffer-includes](https://github.com/sindresorhus/buffer-includes) - Node.js 5.3 `buffer.includes()` ponyfill.
+	- [buf-indexof](https://github.com/sindresorhus/buf-indexof) - Node.js 4 `buffer.indexOf()` ponyfill.
 	- [buf-compare](https://github.com/sindresorhus/buf-compare) - Node.js 0.12 `Buffer.compare()` ponyfill.
 	- [fs-access](https://github.com/sindresorhus/fs-access) - Node.js 0.12 `fs.access()` & `fs.accessSync()` ponyfill.
 	- [exec-file-sync](https://github.com/sindresorhus/exec-file-sync) - Node.js 0.12 `childProcess.execFileSync()` ponyfill.
-	- [child-process-ctor](https://github.com/sindresorhus/child-process-ctor) - Node.js 4.0 `childProcess.ChildProcess` ponyfill.
+	- [child-process-ctor](https://github.com/sindresorhus/child-process-ctor) - Node.js 4 `childProcess.ChildProcess` ponyfill.
 	- [node-status-codes](https://github.com/sindresorhus/node-status-codes) - Node.js `http.STATUS_CODES` ponyfill.
 	- [exit-code](https://github.com/isaacs/exit-code) - Node.js 0.12 `process.exitCode` polyfill.
 	- [core-assert](https://github.com/sindresorhus/core-assert) - Node.js `assert` as a standalone module.
@@ -733,6 +749,7 @@
 - [cool-ascii-faces](https://github.com/maxogden/cool-ascii-faces) - Get some cool ascii faces.
 - [cat-ascii-faces](https://github.com/melaniecebula/cat-ascii-faces) - ₍˄·͈༝·͈˄₎◞ ̑̑ෆ⃛ (=ↀωↀ=)✧ (^･o･^)ﾉ”
 - [cows](https://github.com/sindresorhus/cows) - ASCII cows.
+- [nerds](https://github.com/SkyHacks/nerds) - Get data from nerdy topics like Harry Potter, Star Wars, and Pokémon.
 
 
 ### Miscellaneous
@@ -761,7 +778,6 @@
 - [node-pre-gyp](https://github.com/mapbox/node-pre-gyp) - Makes it easy to publish and install Node.js C++ addons from binaries.
 - [opencv](https://github.com/peterbraden/node-opencv) - Bindings for OpenCV. The defacto computer vision library.
 - [common-errors](https://github.com/shutterstock/node-common-errors) - Common error classes and utility functions.
-- [agenda](https://github.com/rschmukler/agenda) - Lightweight job scheduling on MongoDB.
 - [dotenv](https://github.com/motdotla/dotenv) - Load environment variables from .env file.
 - [remote-git-tags](https://github.com/sindresorhus/remote-git-tags) - Get tags from a remote git repo.
 - [semver](https://github.com/npm/node-semver) - [semver](http://semver.org) parser.
@@ -799,7 +815,7 @@
 
 ### Articles
 
-- [Error Handling in Node.js](http://www.joyent.com/developers/node/design/errors)
+- [Error Handling in Node.js](https://www.joyent.com/node-js/production/design/errors)
 - [Teach Yourself Node.js in 10 Steps](https://ponyfoo.com/articles/teach-yourself-nodejs-in-10-steps)
 - [Mastering the filesystem in Node.js](https://medium.com/@yoshuawuyts/mastering-the-filesystem-in-node-js-4706b7cb0801)
 - [Semver: A Primer](https://nodesource.com/blog/semver-a-primer/)
@@ -816,7 +832,6 @@
 ### Videos
 
 - [Introduction to Node.js with Ryan Dahl](https://www.youtube.com/watch?v=jo_B4LTHi3I)
-- [LearnAllTheNodes](https://www.learnallthenodes.com) - Series of useful tips, tricks, and packages.
 - [Introduction to Node.js Fundamentals](http://strongloop.com/node-js/videos/#a-video-intro-to-nodejs-fundamentals)
 - [Hands on with Node.js](https://learn.bevry.me/node/preface)
 - [Full Streams Ahead](http://dry.ly/full-streams-ahead) - Introduction to streams.
@@ -878,6 +893,7 @@
 - [node-module-boilerplate](https://github.com/sindresorhus/node-module-boilerplate) - Boilerplate to kickstart creating a node module.
 - [generator-nm](https://github.com/sindresorhus/generator-nm) - Scaffold out a node module.
 - [awesome-cross-platform-nodejs](https://github.com/bcoe/awesome-cross-platform-nodejs) - Resources for writing and testing cross-platform code.
+- [Microsoft Node.js Guidelines](https://github.com/Microsoft/nodejs-guidelines) - Tips, tricks, and resources for working with Node.js on Microsoft platforms.
 
 
 ## License
